@@ -31,9 +31,9 @@ Dice = Button(text = "", color = (0,0,0,1),background_color = (3,3,3,1), font_si
 class MyLayout(GridLayout):
 	def __init__(self, **kwargs):
 		super(MyLayout, self).__init__(**kwargs)
-#No of coloumns
+                #No of coloumns
                 self.cols = 1
-# adding dice to layout
+                # adding dice to layout
 		self.add_widget(Dice)
 		
 #class for myapp	
